@@ -27,7 +27,9 @@ Zkeen в первую очередь рекомендован для роуте�
       {
         "domain": [
           "ext:zkeen.dat:domains",
-          "ext:zkeen.dat:other"
+          "ext:zkeen.dat:other",
+          "ext:zkeen.dat:politic",
+          "ext:zkeen.dat:youtube"
         ],
         "inboundTag": ["redirect", "tproxy"],
         "outboundTag": "vless-reality",
