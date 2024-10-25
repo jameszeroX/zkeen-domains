@@ -23,7 +23,7 @@ Zkeen в первую очередь рекомендован для роуте�
 ```json
 {
   "routing": {
-      "rules": [
+    "rules": [
       {
         "domain": [
           "ext:zkeen.dat:domains",
