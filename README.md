@@ -31,12 +31,10 @@ Zkeen в первую очередь рекомендован для роуте�
           "ext:zkeen.dat:politic",
           "ext:zkeen.dat:youtube"
         ],
-        "inboundTag": ["redirect", "tproxy"],
         "outboundTag": "vless-reality",
         "type": "field"
       },
       {
-        "inboundTag": ["redirect", "tproxy"],
         "outboundTag": "direct",
         "type": "field"
       }
