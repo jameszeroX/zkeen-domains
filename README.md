@@ -17,6 +17,8 @@ Zkeen в первую очередь рекомендован для роуте�
 ## Ссылка для загрузки крайней версии
 
 - <https://github.com/jameszeroX/zkeen-domains/releases/latest/download/zkeen.dat>
+  or
+- <https://cdn.jsdelivr.net/gh/jameszeroX/zkeen-domains@master/zkeen.dat>
 
 ## Пример использования
 
