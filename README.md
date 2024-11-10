@@ -14,7 +14,7 @@ Zkeen в первую очередь рекомендован для роуте�
 - <https://browserleaks.com> - комплексное тестирование
 - <https://nperf.com> - замер скорости
 
-## Ссылки для загрузки крайней версии
+## Зеркала для загрузки крайней версии
 
 - <https://github.com/jameszeroX/zkeen-domains/releases/latest/download/zkeen.dat>
 - <https://cdn.jsdelivr.net/gh/jameszeroX/zkeen-domains@master/zkeen.dat>
