@@ -67,11 +67,11 @@ zkeen.dat может быть использован абсолютно своб
 
 ## Поддержка
 Желающие угостить меня пивом) могут сделать это по следующим реквизитам через Telegram:
-Монета USDT, сеть TRC20
+- Монета USDT, сеть TRC20
 ```
 TB9dLwzNdLB6QeKV6w4FjCACSarePb32Dg
 ```
-Монета USDT, сеть TON
+- Монета USDT, сеть TON
 ```
 UQDHmmyz0e1K07Wf7aTVtdmcGzCPfo4Pf7uBi_Id8TDI6Da6
 ```
