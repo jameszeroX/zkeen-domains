@@ -1,6 +1,9 @@
 # используется совместно с zkeenip.dat:cloudflare
 globalsign.com
 jameszero.net
+ocsp.comodoca.com
+ocsp.globalsign.com
+ocsp.sectigo.com
 ocsp.usertrust.com
 streamlabs.ru
 zerossl.ocsp.sectigo.com
