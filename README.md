@@ -1,5 +1,8 @@
 ## Список доменов выборочной маршрутизации для проекта XKeen
 
+Подробнее о проекте XKeen по ссылке <https://forum.keenetic.ru/topic/16899-xray-на-entware-xkeen/>
+
+Telegram <https://t.me/+SZWOjSlvYpdlNmMy>
 
 FAQ <https://jameszero.net/faq-xkeen.htm>
 
