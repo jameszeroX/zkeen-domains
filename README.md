@@ -41,13 +41,11 @@ ZKeen в первую очередь рекомендован для роуте�
           "ext:zkeen.dat:politic",
           "ext:zkeen.dat:youtube"
         ],
-        "outboundTag": "vless-reality",
-        "type": "field"
+        "outboundTag": "vless-reality"
       },
       {
         "network": "tcp,udp",
-        "outboundTag": "direct",
-        "type": "field"
+        "outboundTag": "direct"
       }
     ]
   }
