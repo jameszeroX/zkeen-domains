@@ -28,7 +28,7 @@ ZKeen в первую очередь рекомендован для роуте�
 - <https://github.com/jameszeroX/zkeen-domains/releases/latest/download/zkeen.dat>
 - <https://cdn.jsdelivr.net/gh/jameszeroX/zkeen-domains@master/zkeen.dat>
 
-## Пример использования
+## Пример маршрутизации
 
 ```json
 {
