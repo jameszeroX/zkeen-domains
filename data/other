@@ -5,11 +5,6 @@ notion.site
 notion.so
 notionusercontent.com
 
-#tiktok
-tiktok.com
-tiktokv.com
-ttwstatic.com
-
 #google
 googletagservices.com
 labs.google
@@ -36,6 +31,7 @@ claude.ai
 clients6.google.com
 clio-assets.adobe.com
 codegpt.co
+copilot.microsoft.com
 copilot-proxy.githubusercontent.com
 d.docs.live.net
 fastflux.ai
@@ -46,6 +42,7 @@ genspark.ai
 geospy.ai
 githubcopilot.com
 grazie.ai
+grok.com
 groq.com
 hume.ai
 illuminate.google.com
@@ -82,7 +79,10 @@ daemon-tools.cc
 dell.com
 dellcdn.com
 delltechnologies.com
+designer.microsoft.com
 developer.nvidia.com
+ecs.office.com
+edge.microsoft.com
 elby.ch
 fortinet.com
 forum.ansible.com
@@ -105,7 +105,6 @@ liveupdate.symantec.com
 liveupdate.symantecliveupdate.com
 login.amd.com
 malwarebytes.com
-microsoft.com
 omnissa.com
 oracle.com
 oraclecloud.com
@@ -136,9 +135,9 @@ game.co.uk
 gamedistribution.com
 gamestop.com
 gaming.amazon.com
+ghostrc.game.idtech.services
 gtagarage.com
 humblebundle.com
-idtech.services
 piratenation.game
 pcgamesn.com
 riotpixels.com
@@ -377,7 +376,6 @@ ionos.com
 ipdata.co
 ipinfo.io
 itninja.com
-itunes.apple.com
 jabra.com
 jamf.com
 joesandbox.com
@@ -473,6 +471,7 @@ padi.com
 pages.dev
 paraswap.io
 parsec.app
+parts-express.com
 path3.xtracloud.net
 patreon.com
 paypal.com
@@ -497,6 +496,7 @@ plugshare.com
 plumbr.io
 pluralsight.com
 pny.com
+politico.eu
 polymarket.com
 premierleague.com
 privatekeys.pw
@@ -522,6 +522,7 @@ redislabs.com
 refactoring.guru
 refinitiv.com
 releases.hashicorp.com
+remna.st
 remove.bg
 repo.bacch.com
 research.net
@@ -564,6 +565,7 @@ sites.fastspring.com
 sketchup.com
 sky.com
 skycdp.com
+skyshowtime.com
 slideshare.net
 smartbear.co
 smartbear.com
@@ -576,6 +578,7 @@ sophos.com
 sora.com
 spiceworks.com
 spiceworksstatic.com
+spitfireaudio.com
 splunk.com
 splunkcloud.com
 spreadthesign.com
@@ -623,6 +626,7 @@ trailblazer.me
 trailhead.com
 tsmc.com
 typing.com
+uaudio.com
 ubi.com
 ubisoft.com
 udemy.com
@@ -648,6 +652,7 @@ vyos.io
 w.atwiki.jp
 walmart.com
 watchguard.com
+we.tl
 weather.com
 webdock.io
 webex.com
