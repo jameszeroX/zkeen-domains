@@ -8,6 +8,8 @@
 
 Подробнее о проекте XKeen по ссылке <https://forum.keenetic.ru/topic/16899-xkeen/>
 
+Форк XKeen <https://github.com/jameszeroX/XKeen>
+
 Telegram <https://t.me/+SZWOjSlvYpdlNmMy>
 
 FAQ <https://jameszero.net/faq-xkeen.htm>
