@@ -6,7 +6,7 @@
 
 Форк XKeen <https://github.com/jameszeroX/XKeen>
 
-Telegram <https://t.me/+SZWOjSlvYpdlNmMy>
+Telegram <https://t.me/+8Cvh7oVf6cE0MWRi>
 
 FAQ <https://jameszero.net/faq-xkeen.htm>
 
