@@ -1,0 +1,59 @@
+name: Auto Release GeoSite
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'release/**'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Parse Date, Format Name and Create Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd release
+          
+          MARKER_FILE=$(ls | grep -E '^[0-9]{6}$' | head -n 1)
+          
+          if [ -z "$MARKER_FILE" ]; then
+            echo "Маркерный файл не найден в папке release. Пропуск."
+            exit 0
+          fi
+          
+          TAG=$MARKER_FILE
+          
+          YY=${TAG:0:2}
+          MM=${TAG:2:2}
+          DD=${TAG:4:2}
+          
+          MM=$((10#$MM))
+          DD=$((10#$DD))
+          
+          RELEASE_NAME="zkeen-domains-${YY}.${MM}.${DD}"
+          
+          if [ ! -f "zkeen.dat" ]; then
+            echo "Ошибка: Файл zkeen.dat не найден в папке release!"
+            exit 1
+          fi
+          
+          NOTES="![downloads](https://img.shields.io/github/downloads/jameszeroX/zkeen-domains/${TAG}/total?label=downloads)"
+          
+          if gh release view "$TAG" > /dev/null 2>&1; then
+            echo "Релиз с тегом $TAG уже существует. Обновление не требуется."
+            exit 0
+          fi
+          
+          gh release create "$TAG" \
+            zkeen.dat \
+            --title "$RELEASE_NAME" \
+            --notes "$NOTES"
