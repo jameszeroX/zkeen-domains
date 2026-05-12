@@ -63,11 +63,6 @@ jobs:
             exit 1
           fi
 
-          SHA256=$(sha256sum zkeen.dat | awk '{print $1}')
-          echo "SHA256: $SHA256"
-
-          echo "$SHA256  zkeen.dat" > zkeen.dat.sha256
-
           NOTES="![downloads](https://img.shields.io/github/downloads/jameszeroX/zkeen-domains/${TAG}/total?label=downloads)"
 
           echo "$NOTES" > /tmp/release_notes.md
@@ -91,7 +86,6 @@ jobs:
           # Создаем релиз с использованием файла notes
           gh release create "$TAG" \
             zkeen.dat \
-            zkeen.dat.sha256 \
             --title "$RELEASE_NAME" \
             --notes-file /tmp/release_notes.md \
             --verify-tag
