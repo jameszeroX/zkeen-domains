@@ -63,7 +63,7 @@ jobs:
             exit 1
           fi
 
-          NOTES="![downloads](https://img.shields.io/github/downloads/jameszeroX/zkeen-domains/${TAG}/total?label=downloads)"
+          NOTES="![downloads](https://img.shields.io/github/downloads/jameszeroX/zkeen-domains/${TAG}/zkeen.dat?label=downloads)"
 
           echo "$NOTES" > /tmp/release_notes.md
 
