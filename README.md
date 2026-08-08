@@ -66,6 +66,7 @@ ZKeen в первую очередь рекомендован для роуте�
           "ext:zkeenip.dat:bunnycdn",
           "ext:zkeenip.dat:cdn77",
           "ext:zkeenip.dat:cloudflare",
+          "ext:zkeenip.dat:cogent",
           "ext:zkeenip.dat:colocrossing",
           "ext:zkeenip.dat:contabo",
           "ext:zkeenip.dat:digitalocean",
