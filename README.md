@@ -36,7 +36,7 @@ ZKeen в первую очередь рекомендован для роуте�
         "network": "udp",
         "port": "443",
         "ip": [
-          "ext:zkeenip.dat:!ru"
+          "!ext:zkeenip.dat:ru"
         ],
         "outboundTag": "block"
       },
